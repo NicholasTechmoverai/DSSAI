@@ -1,0 +1,73 @@
+symptom1,symptom2,symptom3,disease,cause,prevention
+fever,cough,fatigue,Influenza,Virus,"Vaccine, hand washing"
+cough,fever,runny nose,Common Cold,Virus,Hand hygiene
+sore throat,fever,difficulty swallowing,Strep Throat,Bacteria,Complete antibiotics
+fever,fatigue,body aches,Influenza,Virus,"Rest, fluids"
+cough,wheezing,chest tightness,Asthma,Allergy,Avoid triggers
+shortness of breath,wheezing,coughing,Asthma,Allergy,Avoid allergens
+fever,chills,cough,Pneumonia,Bacteria,"Vaccine, no smoking"
+chest pain,cough,fever,Pneumonia,Bacteria,Vaccine
+cough,sputum,shortness of breath,Bronchitis,Virus,No smoking
+fatigue,night sweats,cough,Tuberculosis,Bacteria,"Ventilation, vaccine"
+night sweats,weight loss,cough,Tuberculosis,Bacteria,Early treatment
+persistent cough,weight loss,chest pain,Lung Cancer,Genetic/Risk Factors,No smoking
+nausea,vomiting,dehydration,Gastroenteritis,Virus,Wash hands
+vomiting,diarrhea,stomach pain,Gastroenteritis,Virus,Hydration
+diarrhea,cramping,fever,Gastroenteritis,Virus/Bacteria,Clean food/water
+stomach pain,nausea,bloating,Gastritis,H. pylori,Avoid NSAIDs
+abdominal pain,bloating,constipation,IBS,Stress/Diet,Manage stress
+nausea,fatigue,pale skin,Celiac Disease,Autoimmune,Gluten-free diet
+heartburn,regurgitation,chest pain,GERD,Diet/Lifestyle,Small meals
+loss of appetite,weight loss,weakness,Stomach Cancer,Genetic/Helicobacter,"Screening, healthy diet"
+headache,nausea,sensitivity to light,Migraine,Neurological,Avoid triggers
+dizziness,vertigo,nausea,Vertigo,Inner Ear,Avoid rapid movements
+confusion,slurred speech,facial drooping,Stroke,Blood Clot,Control BP
+blurry vision,headache,eye pain,Migraine,Neurological,"Rest, dark room"
+headache,light sensitivity,neck pain,Tension Headache,Muscle Tension,Stress management
+tinnitus,hearing loss,ear fullness,Meniere Disease,Inner Ear Fluid,Low salt
+numbness,tingling,muscle spasms,Neuropathy,Diabetes/Autoimmune,Manage diabetes
+migraine,vomiting,aura,Cluster Headache,Neurological,Avoid triggers
+joint pain,morning stiffness,fatigue,Rheumatoid Arthritis,Autoimmune,Early treatment
+muscle pain,fatigue,joint pain,Fibromyalgia,Central Nervous System,"Exercise, sleep"
+back pain,leg pain,numbness,Sciatica,Herniated Disc,Good posture
+joint stiffness,swelling,redness,Osteoarthritis,Wear and Tear,Joint protection
+muscle weakness,fatigue,tingling,Multiple Sclerosis,Autoimmune,No prevention
+neck pain,shoulder pain,arm pain,Cervical Spondylosis,Degenerative,Ergonomics
+knee pain,swelling,locking,Meniscus Tear,Injury,Strengthen muscles
+hip pain,stiffness,difficulty walking,Osteoporosis,Bone Density Loss,"Calcium, exercise"
+chest tightness,shortness of breath,palpitations,Angina,Artery Blockage,Healthy diet
+palpitations,anxiety,sweating,Arrhythmia,Electrical Disorder,Limit caffeine
+shortness of breath,cough,wheezing,Heart Failure,Weak Heart Muscle,Low sodium
+swollen ankles,shortness of breath,weight gain,Heart Failure,Weak Heart Muscle,Low sodium
+fatigue,swollen ankles,shortness of breath,Anemia,Iron Deficiency,Iron-rich foods
+dizziness,chest pain,fainting,Hypotension,Low Blood Pressure,Hydration
+itchy skin,rash,dry skin,Eczema,Genetics/Environment,Moisturize
+rash,itching,flaking,Contact Dermatitis,Irritant,Avoid irritants
+dry skin,scaling,cracking,Psoriasis,Autoimmune,Stress management
+skin redness,swelling,warmth,Cellulitis,Bacteria,Wound care
+hives,swelling,itching,Urticaria,Allergen,Avoid allergens
+blisters,pain,oozing,Shingles,Virus,Vaccine
+painful urination,frequency,pain,UTI,Bacteria,"Hygiene, water"
+frequent urination,urgency,burning,UTI,Bacteria,Cranberry juice
+blood in urine,back pain,nausea,Kidney Stones,Mineral Buildup,Hydration
+pelvic pain,painful periods,back pain,Endometriosis,Hormonal,No prevention
+irregular periods,pelvic pain,mood swings,PCOS,Hormonal,Healthy weight
+heavy bleeding,clotting,fatigue,Uterine Fibroids,Hormonal,No prevention
+vaginal itching,discharge,irritation,Yeast Infection,Fungus,Hygiene
+testicular pain,swelling,lump,Testicular Torsion,Twisting,Immediate care
+runny nose,sneezing,watery eyes,Allergic Rhinitis,Allergen,Avoid allergens
+sneezing,runny nose,congestion,Allergic Rhinitis,Allergen,Avoid allergens
+itchy eyes,red eyes,swollen eyes,Allergic Conjunctivitis,Allergen,Avoid allergens
+ear pain,fever,drainage,Otitis Media,Bacteria,Vaccine
+hearing loss,tinnitus,balance issues,Otosclerosis,Genetic,Noise protection
+nosebleeds,headache,bruising,Epistaxis,Dry Air/Trauma,Humidifier
+loss of taste,fatigue,weight loss,COVID-19,Virus,"Mask, distancing"
+loss of smell,congestion,headache,Sinusitis,Virus/Bacteria,Nasal irrigation
+insomnia,anxiety,racing thoughts,Insomnia,Stress,Sleep schedule
+anxiety,restlessness,panic,Anxiety Disorder,Chemical Imbalance,"Therapy, meditation"
+fatigue,depression,brain fog,Depression,Chemical Imbalance,"Exercise, therapy"
+hair loss,scalp itching,brittle nails,Alopecia,Autoimmune,No prevention
+cold hands,color changes,numbness,Raynaud Disease,Vascular,Keep warm
+bruising,bleeding gums,easy bruising,Leukemia,Bone Marrow,No prevention
+night sweats,fever,chills,Lymphoma,Lymph System,No prevention
+weight gain,fatigue,cold intolerance,Hypothyroidism,Autoimmune,Iodine intake
