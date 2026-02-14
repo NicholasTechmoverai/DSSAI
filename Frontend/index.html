@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health DSS </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="page">
+    <section class="hero reveal-on-load">
+      <h1>MediScope</h1>
+      <p class="eyebrow">Academic Prototype</p>
+      <p class="subtitle">
+        Diagnosis made easy.
+      </p>
+    </section>
+
+    <section class="card reveal-on-load">
+      <h2>Symptom Input</h2>
+      <form id="prediction-form">
+        <div class="field-grid">
+          <label for="symptom-1">
+            Symptom 1
+            <input id="symptom-1" name="symptom-1" type="text" placeholder="e.g. fever" required>
+          </label>
+
+          <label for="symptom-2">
+            Symptom 2
+            <input id="symptom-2" name="symptom-2" type="text" placeholder="e.g. headache" required>
+          </label>
+
+          <label for="symptom-3">
+            Symptom 3
+            <input id="symptom-3" name="symptom-3" type="text" placeholder="e.g. fatigue" required>
+          </label>
+        </div>
+
+        <button id="preview-btn" type="submit">Preview Result</button>
+      </form>
+    </section>
+
+    <section class="card response-panel" id="response-panel" hidden>
+      <h2>Response Panel</h2>
+      <p class="panel-note">Prediction results.</p>
+
+      <div class="response-grid">
+        <article class="response-item">
+          <h3>Name of the Disease</h3>
+          <p id="result-disease">Waiting for prediction...</p>
+        </article>
+
+        <article class="response-item">
+          <h3>The Cause of the Disease</h3>
+          <p id="result-cause">Waiting for prediction...</p>
+        </article>
+
+        <article class="response-item">
+          <h3>The Prevention</h3>
+          <p id="result-prevention">Waiting for prediction...</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="disclaimer reveal-on-load">
+      <p>
+        Disclaimer!<br>
+        The results that will be provided are not 100% accurate. Seeking Doctor's intervention is adviced. </p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
