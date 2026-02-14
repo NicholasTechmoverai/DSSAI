@@ -1,73 +1,120 @@
 symptom1,symptom2,symptom3,disease,cause,prevention
-fever,cough,fatigue,Influenza,Virus,"Vaccine, hand washing"
-cough,fever,runny nose,Common Cold,Virus,Hand hygiene
-sore throat,fever,difficulty swallowing,Strep Throat,Bacteria,Complete antibiotics
-fever,fatigue,body aches,Influenza,Virus,"Rest, fluids"
-cough,wheezing,chest tightness,Asthma,Allergy,Avoid triggers
-shortness of breath,wheezing,coughing,Asthma,Allergy,Avoid allergens
-fever,chills,cough,Pneumonia,Bacteria,"Vaccine, no smoking"
-chest pain,cough,fever,Pneumonia,Bacteria,Vaccine
-cough,sputum,shortness of breath,Bronchitis,Virus,No smoking
-fatigue,night sweats,cough,Tuberculosis,Bacteria,"Ventilation, vaccine"
-night sweats,weight loss,cough,Tuberculosis,Bacteria,Early treatment
-persistent cough,weight loss,chest pain,Lung Cancer,Genetic/Risk Factors,No smoking
-nausea,vomiting,dehydration,Gastroenteritis,Virus,Wash hands
-vomiting,diarrhea,stomach pain,Gastroenteritis,Virus,Hydration
-diarrhea,cramping,fever,Gastroenteritis,Virus/Bacteria,Clean food/water
-stomach pain,nausea,bloating,Gastritis,H. pylori,Avoid NSAIDs
-abdominal pain,bloating,constipation,IBS,Stress/Diet,Manage stress
-nausea,fatigue,pale skin,Celiac Disease,Autoimmune,Gluten-free diet
-heartburn,regurgitation,chest pain,GERD,Diet/Lifestyle,Small meals
-loss of appetite,weight loss,weakness,Stomach Cancer,Genetic/Helicobacter,"Screening, healthy diet"
-headache,nausea,sensitivity to light,Migraine,Neurological,Avoid triggers
-dizziness,vertigo,nausea,Vertigo,Inner Ear,Avoid rapid movements
-confusion,slurred speech,facial drooping,Stroke,Blood Clot,Control BP
-blurry vision,headache,eye pain,Migraine,Neurological,"Rest, dark room"
-headache,light sensitivity,neck pain,Tension Headache,Muscle Tension,Stress management
-tinnitus,hearing loss,ear fullness,Meniere Disease,Inner Ear Fluid,Low salt
-numbness,tingling,muscle spasms,Neuropathy,Diabetes/Autoimmune,Manage diabetes
-migraine,vomiting,aura,Cluster Headache,Neurological,Avoid triggers
-joint pain,morning stiffness,fatigue,Rheumatoid Arthritis,Autoimmune,Early treatment
-muscle pain,fatigue,joint pain,Fibromyalgia,Central Nervous System,"Exercise, sleep"
-back pain,leg pain,numbness,Sciatica,Herniated Disc,Good posture
-joint stiffness,swelling,redness,Osteoarthritis,Wear and Tear,Joint protection
-muscle weakness,fatigue,tingling,Multiple Sclerosis,Autoimmune,No prevention
-neck pain,shoulder pain,arm pain,Cervical Spondylosis,Degenerative,Ergonomics
-knee pain,swelling,locking,Meniscus Tear,Injury,Strengthen muscles
-hip pain,stiffness,difficulty walking,Osteoporosis,Bone Density Loss,"Calcium, exercise"
-chest tightness,shortness of breath,palpitations,Angina,Artery Blockage,Healthy diet
-palpitations,anxiety,sweating,Arrhythmia,Electrical Disorder,Limit caffeine
-shortness of breath,cough,wheezing,Heart Failure,Weak Heart Muscle,Low sodium
-swollen ankles,shortness of breath,weight gain,Heart Failure,Weak Heart Muscle,Low sodium
-fatigue,swollen ankles,shortness of breath,Anemia,Iron Deficiency,Iron-rich foods
-dizziness,chest pain,fainting,Hypotension,Low Blood Pressure,Hydration
-itchy skin,rash,dry skin,Eczema,Genetics/Environment,Moisturize
-rash,itching,flaking,Contact Dermatitis,Irritant,Avoid irritants
-dry skin,scaling,cracking,Psoriasis,Autoimmune,Stress management
-skin redness,swelling,warmth,Cellulitis,Bacteria,Wound care
-hives,swelling,itching,Urticaria,Allergen,Avoid allergens
-blisters,pain,oozing,Shingles,Virus,Vaccine
-painful urination,frequency,pain,UTI,Bacteria,"Hygiene, water"
-frequent urination,urgency,burning,UTI,Bacteria,Cranberry juice
-blood in urine,back pain,nausea,Kidney Stones,Mineral Buildup,Hydration
-pelvic pain,painful periods,back pain,Endometriosis,Hormonal,No prevention
-irregular periods,pelvic pain,mood swings,PCOS,Hormonal,Healthy weight
-heavy bleeding,clotting,fatigue,Uterine Fibroids,Hormonal,No prevention
-vaginal itching,discharge,irritation,Yeast Infection,Fungus,Hygiene
-testicular pain,swelling,lump,Testicular Torsion,Twisting,Immediate care
-runny nose,sneezing,watery eyes,Allergic Rhinitis,Allergen,Avoid allergens
-sneezing,runny nose,congestion,Allergic Rhinitis,Allergen,Avoid allergens
-itchy eyes,red eyes,swollen eyes,Allergic Conjunctivitis,Allergen,Avoid allergens
-ear pain,fever,drainage,Otitis Media,Bacteria,Vaccine
-hearing loss,tinnitus,balance issues,Otosclerosis,Genetic,Noise protection
-nosebleeds,headache,bruising,Epistaxis,Dry Air/Trauma,Humidifier
-loss of taste,fatigue,weight loss,COVID-19,Virus,"Mask, distancing"
-loss of smell,congestion,headache,Sinusitis,Virus/Bacteria,Nasal irrigation
-insomnia,anxiety,racing thoughts,Insomnia,Stress,Sleep schedule
-anxiety,restlessness,panic,Anxiety Disorder,Chemical Imbalance,"Therapy, meditation"
-fatigue,depression,brain fog,Depression,Chemical Imbalance,"Exercise, therapy"
-hair loss,scalp itching,brittle nails,Alopecia,Autoimmune,No prevention
-cold hands,color changes,numbness,Raynaud Disease,Vascular,Keep warm
-bruising,bleeding gums,easy bruising,Leukemia,Bone Marrow,No prevention
-night sweats,fever,chills,Lymphoma,Lymph System,No prevention
-weight gain,fatigue,cold intolerance,Hypothyroidism,Autoimmune,Iodine intake
+fever,cough,fatigue,Influenza,Virus,"Annual vaccine, hand washing, avoid close contact"
+cough,fever,runny nose,Common Cold,Virus,"Hand hygiene, avoid touching face, disinfect surfaces"
+sore throat,fever,difficulty swallowing,Strep Throat,Bacteria,"Complete antibiotics course, avoid sharing utensils"
+fever,fatigue,body aches,Influenza,Virus,"Rest, fluids, annual vaccination"
+cough,wheezing,chest tightness,Asthma,Allergy,"Avoid triggers, use inhaler as prescribed"
+shortness of breath,wheezing,coughing,Asthma,Allergy,"Avoid allergens, maintain clean air"
+fever,chills,cough,Pneumonia,Bacteria,"Pneumonia vaccine, no smoking, hand hygiene"
+chest pain,cough,fever,Pneumonia,Bacteria,"Vaccination, avoid smoking, rest"
+cough,sputum,shortness of breath,Bronchitis,Virus,"No smoking, avoid pollutants, rest"
+fatigue,night sweats,cough,Tuberculosis,Bacteria,"BCG vaccine, ventilation, early detection"
+night sweats,weight loss,cough,Tuberculosis,Bacteria,"Avoid close contact, complete treatment"
+persistent cough,weight loss,chest pain,Lung Cancer,Smoking/Genetics,"No smoking, avoid carcinogens"
+nausea,vomiting,dehydration,Gastroenteritis,Virus,"Hand washing, food safety, hydration"
+vomiting,diarrhea,stomach pain,Gastroenteritis,Virus,"Oral rehydration, hand hygiene"
+diarrhea,cramping,fever,Gastroenteritis,Bacteria,"Clean water, proper food handling"
+stomach pain,nausea,bloating,Gastritis,H.pylori/NSAIDs,"Avoid NSAIDs, treat H.pylori"
+abdominal pain,bloating,constipation,IBS,Stress/Diet,"Stress management, fiber-rich diet"
+nausea,fatigue,pale skin,Celiac Disease,Autoimmune,"Strict gluten-free diet, regular screening"
+heartburn,regurgitation,chest pain,GERD,Diet/Lifestyle,"Small meals, avoid lying down after eating"
+loss of appetite,weight loss,weakness,Stomach Cancer,Genetic/H.pylori,"H.pylori treatment, healthy diet"
+headache,nausea,sensitivity to light,Migraine,Neurological,"Avoid triggers, regular sleep, medication"
+dizziness,vertigo,nausea,Vertigo,Inner Ear Disorder,"Avoid rapid movements, balance exercises"
+confusion,slurred speech,facial drooping,Stroke,Blood Clot/Hypertension,"Control BP, healthy diet, exercise"
+blurry vision,headache,eye pain,Migraine,Neurological,"Rest in dark room, avoid triggers"
+headache,light sensitivity,neck pain,Tension Headache,Muscle Tension,"Stress management, ergonomics"
+tinnitus,hearing loss,ear fullness,Meniere Disease,Inner Ear Fluid,"Low salt diet, avoid caffeine"
+numbness,tingling,muscle spasms,Peripheral Neuropathy,Diabetes,"Blood sugar control, healthy lifestyle"
+migraine,vomiting,aura,Cluster Headache,Neurological,"Avoid alcohol, oxygen therapy"
+joint pain,morning stiffness,fatigue,Rheumatoid Arthritis,Autoimmune,"Early treatment, physical therapy"
+muscle pain,fatigue,joint pain,Fibromyalgia,CNS Disorder,"Exercise, adequate sleep, stress reduction"
+back pain,leg pain,numbness,Sciatica,Herniated Disc,"Good posture, core strengthening"
+joint stiffness,swelling,redness,Osteoarthritis,Wear and Tear,"Joint protection, low-impact exercise"
+muscle weakness,fatigue,tingling,Multiple Sclerosis,Autoimmune,"Vitamin D, healthy lifestyle"
+neck pain,shoulder pain,arm pain,Cervical Spondylosis,Degenerative,"Ergonomic workspace, neck exercises"
+knee pain,swelling,locking,Meniscus Tear,Injury,"Strengthen quadriceps, proper form during sports"
+hip pain,stiffness,difficulty walking,Osteoporosis,Bone Density Loss,"Calcium, vitamin D, weight-bearing exercise"
+chest tightness,shortness of breath,palpitations,Angina,Artery Blockage,"Heart-healthy diet, exercise, no smoking"
+palpitations,anxiety,sweating,Arrhythmia,Electrical Disorder,"Limit caffeine, manage stress"
+shortness of breath,cough,wheezing,Heart Failure,Weak Heart Muscle,"Low sodium, fluid restriction"
+swollen ankles,shortness of breath,weight gain,Heart Failure,Weak Heart Muscle,"Medication compliance, daily weighing"
+fatigue,swollen ankles,shortness of breath,Anemia,Iron Deficiency,"Iron-rich diet, vitamin C"
+dizziness,chest pain,fainting,Hypotension,Low Blood Pressure,"Hydration, avoid sudden position changes"
+itchy skin,rash,dry skin,Eczema,Genetics/Environment,"Regular moisturizing, avoid triggers"
+rash,itching,flaking,Contact Dermatitis,Irritant,"Avoid irritants, use protective gloves"
+dry skin,scaling,cracking,Psoriasis,Autoimmune,"Stress management, topical treatments"
+skin redness,swelling,warmth,Cellulitis,Bacteria,"Wound care, prompt antibiotic treatment"
+hives,swelling,itching,Urticaria,Allergen,"Avoid allergens, antihistamines"
+blisters,pain,oozing,Shingles,Virus,"Shingles vaccine, stress reduction"
+painful urination,frequency,pain,UTI,Bacteria,"Hydration, proper hygiene, urinate after intercourse"
+frequent urination,urgency,burning,UTI,Bacteria,"Cranberry juice, wipe front to back"
+blood in urine,back pain,nausea,Kidney Stones,Mineral Buildup,"Hydration, limit salt and oxalates"
+pelvic pain,painful periods,back pain,Endometriosis,Hormonal,"Early diagnosis, pain management"
+irregular periods,pelvic pain,mood swings,PCOS,Hormonal,"Healthy weight, regular exercise"
+heavy bleeding,clotting,fatigue,Uterine Fibroids,Hormonal,"Regular check-ups, iron-rich diet"
+vaginal itching,discharge,irritation,Yeast Infection,Fungus,"Proper hygiene, avoid douching"
+testicular pain,swelling,lump,Testicular Torsion,Twisting,"Immediate medical attention"
+runny nose,sneezing,watery eyes,Allergic Rhinitis,Allergen,"Avoid allergens, air purifiers"
+sneezing,runny nose,congestion,Allergic Rhinitis,Allergen,"Allergy medications, nasal irrigation"
+itchy eyes,red eyes,swollen eyes,Allergic Conjunctivitis,Allergen,"Avoid rubbing eyes, cold compresses"
+ear pain,fever,drainage,Otitis Media,Bacteria,"Vaccination, avoid secondhand smoke"
+hearing loss,tinnitus,balance issues,Otosclerosis,Genetic,"Noise protection, hearing aids if needed"
+nosebleeds,headache,bruising,Epistaxis,Dry Air/Trauma,"Humidifier, avoid nose picking"
+loss of taste,fatigue,weight loss,COVID-19,Virus,"Vaccination, masking, distancing"
+loss of smell,congestion,headache,Sinusitis,Virus/Bacteria,"Nasal irrigation, steam inhalation"
+insomnia,anxiety,racing thoughts,Insomnia,Stress,"Sleep hygiene, consistent bedtime"
+anxiety,restlessness,panic,Anxiety Disorder,Chemical Imbalance,"Therapy, meditation, regular exercise"
+fatigue,depression,brain fog,Depression,Chemical Imbalance,"Regular exercise, therapy, social connection"
+hair loss,scalp itching,brittle nails,Alopecia,Autoimmune,"Stress reduction, balanced diet"
+cold hands,color changes,numbness,Raynaud Disease,Vascular,"Keep warm, avoid smoking"
+bruising,bleeding gums,easy bruising,Leukemia,Bone Marrow,"Regular check-ups, avoid radiation"
+night sweats,fever,chills,Lymphoma,Lymph System,"Healthy lifestyle, avoid infections"
+weight gain,fatigue,cold intolerance,Hypothyroidism,Autoimmune,"Iodine intake, regular medication"
+fever,headache,vomiting,Meningitis,Bacteria/Virus,"Meningitis vaccine, avoid close contact"
+stiff neck,confusion,sensitivity to light,Meningitis,Bacteria,"Prompt treatment, vaccination"
+abdominal pain,fever,nausea,Appendicitis,Inflammation,"Surgical consultation if suspected"
+sharp abdominal pain,vomiting,fever,Appendicitis,Blockage,"Emergency care if symptoms worsen"
+fatigue,weight gain,constipation,Hypothyroidism,Autoimmune,"Thyroid medication, regular monitoring"
+cold intolerance,dry skin,hair loss,Hypothyroidism,Autoimmune,"Iodized salt, regular check-ups"
+fever,joint pain,rash,Lupus,Autoimmune,"Sun protection, stress management"
+butterfly rash,fatigue,joint pain,Lupus,Autoimmune,"Avoid triggers, regular medication"
+cough,chest pain,shortness of breath,COVID-19,Virus,"Vaccination, boosters, ventilation"
+loss of taste,loss of smell,fatigue,COVID-19,Virus,"Isolate when sick, test regularly"
+headache,stiff neck,fever,Meningitis,Bacteria,"Vaccination, avoid sharing personal items"
+sensitivity to light,nausea,vomiting,Meningitis,Virus,"Hand hygiene, respiratory etiquette"
+abdominal bloating,diarrhea,weight loss,Crohn Disease,Autoimmune,"No smoking, stress management"
+abdominal pain,bloody stool,fatigue,Ulcerative Colitis,Autoimmune,"Medication compliance, regular check-ups"
+rectal bleeding,constipation,abdominal pain,Colorectal Cancer,Genetic/Age,"Colonoscopy screening, healthy diet"
+change in bowel habits,blood in stool,weight loss,Colorectal Cancer,Genetic,"Fiber-rich diet, regular screening"
+cough,hoarseness,difficulty swallowing,Esophageal Cancer,Reflux/Smoking,"No smoking, limit alcohol"
+chest pain,regurgitation,weight loss,Esophageal Cancer,Chronic GERD,"Treat GERD early, healthy diet"
+frequent urination,excessive thirst,weight loss,Diabetes Type 1,Autoimmune,"Insulin therapy, blood sugar monitoring"
+excessive thirst,frequent urination,blurry vision,Diabetes Type 2,Genetics/Obesity,"Healthy weight, regular exercise"
+slow healing wounds,numbness in feet,recurrent infections,Diabetes Type 2,Insulin Resistance,"Balanced diet, blood sugar control"
+fatigue,shortness of breath,pale skin,Anemia,Iron Deficiency,"Iron supplements, vitamin B12"
+cold hands and feet,dizziness,headache,Anemia,Vitamin B12 Deficiency,"B12 supplements, fortified foods"
+flank pain,blood in urine,frequent UTIs,Kidney Disease,Diabetes/Hypertension,"Blood pressure control, diabetes management"
+swelling in legs,foamy urine,fatigue,Kidney Disease,Glomerulonephritis,"Low sodium diet, medication compliance"
+chest pain,shortness of breath,arm numbness,Heart Attack,Artery Blockage,"Healthy diet, exercise, no smoking"
+sweating,nausea,lightheadedness,Heart Attack,Blood Clot,"Emergency response, CPR training"
+severe headache,vision changes,neck pain,Hypertension,Genetics/Lifestyle,"Low sodium diet, regular exercise"
+chest pain,anxiety,shortness of breath,Hypertension,Stress,"Stress management, medication compliance"
+knee stiffness,pain with activity,swelling,Osteoarthritis,Joint Wear,"Low-impact exercise, joint protection"
+hip pain,morning stiffness,difficulty walking,Osteoarthritis,Age/Genetics,"Physical therapy, weight management"
+headache,sinus pressure,facial pain,Sinusitis,Allergy/Infection,"Nasal irrigation, allergy management"
+green nasal discharge,fever,cough,Sinusitis,Bacteria,"Complete antibiotics, steam inhalation"
+night sweats,swollen lymph nodes,fatigue,Lymphoma,Immune System,"Healthy lifestyle, avoid infections"
+itching,weight loss,fever,Lymphoma,Genetic,"Regular check-ups, early detection"
+joint swelling,morning stiffness,fatigue,Psoriatic Arthritis,Autoimmune,"Medication compliance, physical therapy"
+scalp psoriasis,joint pain,nail changes,Psoriatic Arthritis,Genetics,"Stress reduction, skin care"
+vomiting,diarrhea,stomach cramps,Food Poisoning,Bacteria,"Food safety, proper cooking temperatures"
+nausea,watery diarrhea,abdominal pain,Food Poisoning,Toxins,"Hand washing, refrigerate foods promptly"
+burning with urination,frequent urination,lower back pain,Prostatitis,Bacteria,"Complete antibiotics, avoid caffeine"
+difficulty urinating,weak stream,frequent night urination,BPH,Hormonal,"Regular prostate checks, healthy diet"
+involuntary weight loss,night sweats,fatigue,Leukemia,Bone Marrow,"Avoid radiation exposure, healthy lifestyle"
+frequent infections,easy bleeding,swollen lymph nodes,Leukemia,Genetic,"Regular check-ups, prompt treatment"
+cough,shortness of breath,wheezing,COPD,Smoking,"Quit smoking, pulmonary rehabilitation"
+chronic cough,sputum production,activity limitation,COPD,Air Pollution,"Avoid pollutants, bronchodilators"
+memory loss,confusion,personality changes,Alzheimer Disease,Neurodegenerative,"Mental stimulation, healthy diet"
+difficulty with familiar tasks,misplacing items,disorientation,Alzheimer Disease,Age/Genetics,"Regular exercise, social engagement"
