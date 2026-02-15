@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 6. Run the application
  ```
-python app.py
+python main.py
 ```
 
 

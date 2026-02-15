@@ -283,3 +283,10 @@ button:hover {
   font-size: 0.9rem;
   margin-top: 2rem;
 }
+
+.footer-links {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
