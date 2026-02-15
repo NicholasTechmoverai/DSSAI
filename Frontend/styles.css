@@ -158,6 +158,12 @@ button:hover {
   font-size: 1rem;
   font-weight: 600;
 }
+.disclaimer h5 {
+  margin: 0 0 0.4rem;
+  color: red;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
 
 .disclaimer p {
   margin: 0;
