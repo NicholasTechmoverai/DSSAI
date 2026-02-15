@@ -1,11 +1,10 @@
-# predict_simple.py - Run with: python predict_simple.py fever cough fatigue
 import pickle
 import torch
 import torch.nn as nn
 import numpy as np
 import sys
 
-# Define model (same as training)
+# Define model 
 class SymptomPredictor(nn.Module):
     def __init__(self, input_size, num_diseases, num_causes, num_preventions):
         super().__init__()
@@ -21,7 +20,6 @@ class SymptomPredictor(nn.Module):
         features = self.network(x)
         return self.disease_head(features), self.cause_head(features), self.prevention_head(features)
 
-# Load everything
 print("Loading model...")
 symptoms = pickle.load(open("AI/all/Model/symptoms.pkl", "rb"))
 disease_enc = pickle.load(open("AI/all/Model/disease_encoder.pkl", "rb"))
@@ -38,7 +36,6 @@ model = SymptomPredictor(
 model.load_state_dict(checkpoint['model_state_dict'])
 model.eval()
 
-# Get symptoms from command line or input
 if len(sys.argv) > 1:
     input_symptoms = [s.lower() for s in sys.argv[1:4]]
 else:
@@ -66,7 +63,6 @@ with torch.no_grad():
     cause = cause_enc.inverse_transform([c_pred.item()])[0]
     prevention = prev_enc.inverse_transform([p_pred.item()])[0]
 
-# Print results
 print(f"\n{'='*50}")
 print(f"Symptoms: {', '.join(valid_symptoms)}")
 print(f"{'='*50}")

@@ -199,7 +199,6 @@ for epoch in range(EPOCHS):
         best_acc = test_acc
         torch.save(model.state_dict(), 'best_model.pth')
     
-    # Print progress every 10 epochs
     if (epoch + 1) % 10 == 0:
         print(f"Epoch {epoch+1:3d}/{EPOCHS} | Loss: {avg_loss:.4f} | Train Acc: {train_acc:.1f}% | Test Acc: {test_acc:.1f}%")
 

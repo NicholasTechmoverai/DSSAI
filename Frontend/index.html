@@ -10,7 +10,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="icon" href="/static/icon.png" type="image/png">
+  
 </head>
 
 <body>
@@ -74,9 +76,66 @@
         Disclaimer!<br>
         The results that will be provided are not 100% accurate. Seeking Doctor's intervention is adviced. </p>
     </section>
+
+    <section>
+      <h4>Sample Symptoms for Testing</h4>
+      <div id="sample-symptoms-container">
+
+        <div class="symptom-row" data-symptoms="fever,cough,fatigue">
+          <button class="symptom-btn">Fever</button>
+          <button class="symptom-btn">Cough</button>
+          <button class="symptom-btn">Fatigue</button>
+          <button class="fill-row-btn">Test All</button>
+        </div>
+
+        <div class="symptom-row" data-symptoms="cough,fever,runny nose">
+          <button class="symptom-btn">Cough</button>
+          <button class="symptom-btn">Fever</button>
+          <button class="symptom-btn">Runny Nose</button>
+          <button class="fill-row-btn">Test All</button>
+        </div>
+
+        <div class="symptom-row" data-symptoms="sore throat,fever,difficulty swallowing">
+          <button class="symptom-btn">Sore Throat</button>
+          <button class="symptom-btn">Fever</button>
+          <button class="symptom-btn">Difficulty Swallowing</button>
+          <button class="fill-row-btn">Test All</button>
+        </div>
+
+        <div class="symptom-row" data-symptoms="cough,wheezing,chest tightness">
+          <button class="symptom-btn">Cough</button>
+          <button class="symptom-btn">Wheezing</button>
+          <button class="symptom-btn">Chest Tightness</button>
+          <button class="fill-row-btn">Test All</button>
+        </div>
+
+        <div class="symptom-row" data-symptoms="fever,chills,cough">
+          <button class="symptom-btn">Fever</button>
+          <button class="symptom-btn">Chills</button>
+          <button class="symptom-btn">Cough</button>
+          <button class="fill-row-btn">Test All</button>
+        </div>
+
+        <div class="symptom-row" data-symptoms="cough,sputum,shortness of breath">
+          <button class="symptom-btn">Cough</button>
+          <button class="symptom-btn">Sputum</button>
+          <button class="symptom-btn">Shortness of Breath</button>
+          <button class="fill-row-btn">Test All</button>
+        </div>
+
+      </div>
+    </section>
+
+<section class="footer">
+  <p>DSSAI - Disease Symptom System AI     &copy; 2026</p>
+  <a href="https://github.com/NicholasTechmoverai/DSSAI" target="_blank">GitHub</a>
+</section>
+
+
+
   </main>
 
-  <script src="app.js"></script>
+  <script src="/static/app.js"></script>
 </body>
 
 </html>

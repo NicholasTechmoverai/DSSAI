@@ -55,18 +55,15 @@ model = SymptomPredictor(
 model.load_state_dict(checkpoint['model_state_dict'], strict=False)
 model.eval()
 
-# Create symptom to index mapping
 symptom_to_idx = {symptom: i for i, symptom in enumerate(unique_symptoms)}
 
 print(f"\n{'='*50}")
 print("Disease Prediction from Symptoms")
 print(f"{'='*50}\n")
 
-# Prediction loop
 while True:
     print("\nEnter 3 symptoms (or 'quit' to exit):")
     
-    # Get symptoms from user
     symptom1 = input("Symptom 1: ").strip().lower()
     if symptom1 == 'quit':
         break
@@ -74,7 +71,6 @@ while True:
     symptom2 = input("Symptom 2: ").strip().lower()
     symptom3 = input("Symptom 3: ").strip().lower()
     
-    # Create feature vector
     features = np.zeros(len(unique_symptoms))
     symptoms_entered = []
     unknown_symptoms = []
@@ -126,4 +122,3 @@ while True:
     print(f"\n{'-'*50}")
     print("Options: press Enter for new prediction, or type 'quit'")
     
-print("\n✅ Goodbye!")

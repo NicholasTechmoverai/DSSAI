@@ -9,7 +9,6 @@ from sklearn.preprocessing import LabelEncoder
 import pickle
 import os
 
-# Configuration
 DATA_PATH = "AI/disease_prediction_dataset.csv"
 SAVE_PATH = "AI/all/Model"
 BATCH_SIZE = 8
@@ -17,13 +16,11 @@ EPOCHS = 100
 LEARNING_RATE = 0.001
 TEST_SIZE = 0.15
 
-# Device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"\n{'='*50}")
 print(f"Using device: {device}")
 print(f"{'='*50}\n")
 
-# 1. LOAD DATA
 df = pd.read_csv(DATA_PATH)
 print(f"✅ Loaded {len(df)} samples")
 
@@ -70,7 +67,9 @@ print(f"  Classes with 1 sample: {sum(disease_counts == 1)}")
 print(f"  Classes with 2+ samples: {sum(disease_counts > 1)}")
 
 # 4. TRAIN/TEST SPLIT
-split = train_test_split(
+split = train_test_split(# Clean da# Clean data
+ta
+
     X, y_disease, y_cause, y_prevention,
     test_size=TEST_SIZE, 
     random_state=42
@@ -101,7 +100,6 @@ train_loader = DataLoader(SymptomDataset(X_train, y_disease_train, y_cause_train
 test_loader = DataLoader(SymptomDataset(X_test, y_disease_test, y_cause_test, y_prevention_test), 
                         batch_size=BATCH_SIZE)
 
-# 6. SIMPLE MODEL
 class SymptomPredictor(nn.Module):
     def __init__(self, input_size, num_diseases, num_causes, num_preventions):
         super().__init__()
@@ -132,11 +130,10 @@ model = SymptomPredictor(
 
 print(f"\nModel parameters: {sum(p.numel() for p in model.parameters()):,}")
 
-# 7. TRAINING SETUP
+# TRAINING SETUP
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
 
-# 8. TRAINING LOOP
 print(f"\n{'='*50}")
 print("STARTING TRAINING")
 print(f"{'='*50}\n")
@@ -198,7 +195,6 @@ for epoch in range(EPOCHS):
         best_acc = test_acc
         torch.save(model.state_dict(), 'best_model.pth')
     
-    # Print progress every 10 epochs
     if (epoch + 1) % 10 == 0:
         print(f"Epoch {epoch+1:3d}/{EPOCHS} | Loss: {avg_loss:.4f} | Train Acc: {train_acc:.1f}% | Test Acc: {test_acc:.1f}%")
 
@@ -207,10 +203,8 @@ print(f"✅ Training Complete!")
 print(f"Best Test Accuracy: {best_acc:.1f}%")
 print(f"{'='*50}\n")
 
-# 9. LOAD BEST MODEL
 model.load_state_dict(torch.load('best_model.pth'))
 
-# 10. DETAILED TEST RESULTS
 print("\n" + "="*50)
 print("SAMPLE PREDICTIONS")
 print("="*50)
@@ -259,7 +253,7 @@ with torch.no_grad():
         print(f"   Cause: {predicted_cause} ({c_conf.item()*100:.1f}%)")
         print(f"   Prevention: {predicted_prevention} ({p_conf.item()*100:.1f}%)")
 
-# 11. SUMMARY
+# SUMMARY
 print(f"\n{'='*50}")
 print("SUMMARY")
 print(f"{'='*50}")
@@ -268,7 +262,7 @@ if confidences:
     print(f"Avg Confidence (correct): {np.mean(confidences):.1f}%")
 print(f"Sample correct: {correct}/10")
 
-# 12. SAVE MODEL AND ALL ENCODERS
+# SAVE MODEL AND ALL ENCODERS
 os.makedirs(SAVE_PATH, exist_ok=True)
 
 # Save model with ALL dimensions

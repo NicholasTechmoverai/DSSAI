@@ -1,5 +1,5 @@
 from pandas import pd
-DATA_PATH = "disease_prediction_dataset.csv"
+DATA_PATH = "AI/disease_prediction_dataset.csv"
 
 try:
     df = pd.read_csv(DATA_PATH)
