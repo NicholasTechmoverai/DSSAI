@@ -9,4 +9,4 @@ app_main.mount("/static", StaticFiles(directory="Frontend"), name="static")
 
 if __name__ =="__main__" :
     import uvicorn
-    uvicorn.run("main:app_main", host="0.0.0.0", port=8009, reload=True)
+    uvicorn.run("main:app_main", host="0.0.0.0", port=8000)
